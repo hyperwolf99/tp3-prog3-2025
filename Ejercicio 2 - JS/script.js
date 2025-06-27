@@ -36,6 +36,7 @@ formulario.addEventListener('submit', (e) => {
     // Mostramos las frutas filtradas o un mensaje de error
     if (palabrasFiltradas.length === 0) {
         error.textContent = 'No se encontraron coincidencias';
+        listaPalabras.innerHTML = '';
     } else {
         mostrarFrutas(palabrasFiltradas);
         error.textContent = '';
