@@ -30,5 +30,5 @@ function AlternarBotones() {
     );
 }
 
-const appRoot = ReactDOM.createRoot(document.getElementById("root"));
-appRoot.render(<AlternarBotones />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<AlternarBotones />);
